@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" type="image/png" sizes="16x16" href="../plugins/images/icon.png">
+    <title>Home | V-Tech</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- color CSS -->
+    <link href="css/colors/default.css" id="theme" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+
+<body class="fix-header">
+    <!-- ============================================================== -->
+    <!-- Preloader -->
+    <!-- ============================================================== -->
+    <div class="preloader">
+        <svg class="circular" viewBox="25 25 50 50">
+            <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10" />
+        </svg>
+    </div>
+    <!-- ============================================================== -->
+    <!-- Wrapper -->
+    <!-- ============================================================== -->
+    <div id="wrapper" style="display: flex;">
+        <!-- ============================================================== -->
+        <!-- Topbar header - style you can find in pages.scss -->
+        <!-- ============================================================== -->
+        <nav class="navbar navbar-default navbar-static-top m-b-0" style="background: #FFFEFE; box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.12);">
+            <div>
+                <div class="top-left-part">
+                    <!-- Logo -->
+                    <a class="logo" href="homepage.html">
+                        <!-- Logo icon image, you can use font-icon also -->
+                        <b>
+                            <!--This is dark logo icon-->
+                            <img src="../plugins/images/logo.png" alt="home" class="dark-logo" />
+                            <!--This is light logo icon-->
+                            <img src="../plugins/images/logo.png" alt="home" class="light-logo" />
+                        </b>
+                        <!-- Logo text image you can use text also -->
+                        <span class="hidden-xs">
+                            <!--This is dark logo text-->
+                            <img src="../plugins/images/textlogo2.png" alt="home" class="dark-logo" />
+                            <!--This is light logo text-->
+                            <img src="../plugins/images/textlogo.png" alt="home" class="light-logo" />
+                        </span> 
+                    </a>
+                </div>
+                <ul class="nav navbar-top-links pull-left" style=" margin-left: 50px;">
+                    <li>
+                        <form role="search" class="app-search hidden-sm hidden-xs m-r-10">
+                            <a href="" class="pull-left">
+                                <i class="fa fa-search pull-left" style="color: #EF4834;"></i>
+                            </a>
+                            <input type="text" placeholder="Search for anything" class="form-control" 
+                            style="background: #FFFEFE;
+                            color: #777;
+                            
+                            box-shadow: inset 40px 40px 40px rgba(75, 75, 75, 0.238);
+                            border-radius: 10px;"> 
+                            
+                        </form>
+                    </li>
+                </ul>
+                <!-- /Logo -->
+                <ul class="nav navbar-top-links navbar-right pull-right">
+                    <li>
+                        <a class="nav-toggler open-close waves-effect waves-light hidden-md hidden-lg" href="javascript:void(0)">
+                            <i class="fa fa-bars" style="color: black;"></i>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-bell" style="color: black;"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="profile-pic" href="#"> 
+                            <img src="../plugins/images/users/pawandeep.jpg" alt="user-img" width="36" class="img-circle">
+                            <b class="hidden-xs" style="color: black;">Onah Victory</b>
+                        </a>
+                                
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-angle-down" style="color: black;"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-header -->
+            <!-- /.navbar-top-links -->
+            <!-- /.navbar-static-side -->
+        </nav>
+        <!-- End Top Navigation -->
+        <!-- ============================================================== -->
+        <!-- Left Sidebar - style you can find in sidebar.scss  -->
+        <!-- ============================================================== -->
+        <div class="navbar-default sidebar" role="navigation">
+            <div class="sidebar-nav slimscrollsidebar">
+                <div class="sidebar-head">
+                    <h3><span class="fa-fw open-close"><i class="ti-close ti-menu"></i></span> <span class="hide-menu">V-Tech</span></h3>
+                </div>
+                <ul class="nav" id="side-menu">
+                    <li style="padding: 100px 0 0;">
+                        <a href="home.html" class="waves-effect"><i class="fa fa-home fa-fw" aria-hidden="true"></i>Home</a>
+                    </li>
+                    <li>
+                        <a href="#" class="waves-effect"><i class="fa fa-graduation-cap fa-fw" aria-hidden="true"></i>Course</a>
+                    </li>
+                    <li>
+                        <a href="#" class="waves-effect"><i class="fa fa-compass fa-fw" aria-hidden="true"></i>Explore</a>
+                    </li>
+                    <li>
+                        <a href="#" class="waves-effect"><i class="fa fa-certificate fa-fw" aria-hidden="true"></i>Certificate</a>
+                    </li>
+                    <li>
+                        <a href="#" class="waves-effect"><i class="fa fa-history fa-fw" aria-hidden="true"></i>History</a>
+                    </li>
+                    
+                </ul>
+                <div class="center p-20" style="margin-top: 200px;"> 
+                    <a href="#" target="_blank" class=" btn-block waves-effect waves-light">Need help ?</a>
+                </div>
+            </div>
+            
+        </div>
+        <!-- ============================================================== -->
+        <!-- End Left Sidebar -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- Page Content -->
+        <!-- ============================================================== -->
+        <div id="page-wrapper">
+            <div class="container-fluid" style="padding-right: 0px;">
+                <div class="row pull-right" style="margin: auto; width: 100%;">
+                    <ul class="nav navbar-top-links" style="display: flexbox; ">
+                        <li>
+                            <a href="">
+                                <h5>
+                                    <img src="../plugins/images/interface.png" alt="icon"></img>
+                                        
+                                    <b>Devlopement</b>
+                                </h5>
+                            
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="">
+                                <h5>
+                                    <img src="../plugins/images/chip.png" alt="icon">
+                                    <b>Hardware</b>
+
+                                </h5>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="">
+                                
+                                    
+                                <h5>
+                                    <img src="../plugins/images/grid.png" alt="icon">
+                                    <b>Cyber-Security</b>
+                                </h5>
+                                
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="">
+                                <h5>
+                                    <img src="../plugins/images/business.png" alt="icon"></img>
+                                    <b>Office Productivity</b>
+                                
+                                </h5>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="">
+                                <h5>
+                                    <img src="../plugins/images/seo-and-web.png" alt="icon">
+                                    <b>Marketing</b>
+                                </h5>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="">
+                                <h5>
+                                    <img src="../plugins/images/art-and-design.png" alt="icon">
+                                    <b>Design</b>
+                                </h5>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="">
+                                
+                                <h5>
+                                    <img src="../plugins/images/cloud.png" alt="icon">
+                                    <b>Networking</b>
+                                </h5>
+                            </a>
+                        </li>
+
+                        
+                    </ul>
+                    
+                    
+                </div>
+                
+                
+                <div class="row " style="width: 100%;">
+                    
+                    <div class=" bar">
+                        <b>Welcome back, Victory</b>
+                        <a href="" >Edit Profile
+                            <i class="fa fa-user"></i>
+                        </a>
+
+                    </div>
+            </div>
+
+            
+
+                <div class=" boxs">
+                    <div class="box">
+                        <img src="../plugins/images/image 49.png" alt="">
+                        <h5 class="box-title">Ready to meet your <br> Facilitator ?</h5>
+                    </div>
+
+                    <div class="box">
+                        <img src="../plugins/images/image 50.png" alt="meet Facilitator" style="margin: auto;">
+                        <h5 class="box-title">What to learn next</h5>
+                    </div>
+
+                    <div class="rec-box ">
+                        <h5 class="box-title">Your Certificates so far</h5>
+                        <img src="../plugins/images/image 51.png" alt="Certificate">
+                        <img src="../plugins/images/image 42.png" alt="Certificate">
+                        <h5 class="box-title" style="margin-top: 60px;">Courses that you searched for</h5>
+                        <img src="../plugins/images/image 52.png" alt="courses search">
+                        <img src="../plugins/images/image 48.png" alt="courses search">
+                        <img src="../plugins/images/image 36.png" alt="courses search">
+                        <img src="../plugins/images/image 52 (1).png" alt="courses search">
+                    </div>
+
+                    <div class="mainnav">
+                    <ul class="nav">
+                        <li><a href="" style="color: #fff;">All Courses</a></li>
+                        <li><a href="" style="color: #fff;">In Progress</a></li>
+                        <li><a href="" style="color: #fff;">Complected</a></li>
+                    </ul>
+
+                    <div class="navcon">
+                        <h5>Vinci-technolgy Professional Certificate</h5>
+                        <a href="" style="color: #fff;"> <span>Complected</span></a>
+                        <p>Great Work! You have passed all requirements and can view your Specification<br> certificate now.</p>
+                    </div>
+                    </div>
+                </div>
+
+                
+            
+            <footer class="footer" style="font-weight: 500; ">
+                <b style="padding-left: 30px;">&copy; Copyright 2020 V-Tech</b>
+                
+                <ul  style="list-style: none; ">
+                    <li>
+                        <a href=""><i class="fa fa-facebook"></i></a>
+                    </li>
+
+                    <li>
+                        <a href=""><i class="fa fa-twitter"></i></a>
+                    </li>
+
+                    <li>
+                        <a href=""><i class="fa fa-youtube-play"></i></a>
+                    </li>
+
+                    <li>
+                        <a href=""><i class="fa fa-instagram"></i></a>
+                    </li>
+
+                    <li>
+                        <a href=""><i class="fa fa-linkedin-square"></i></a>
+                    </li>
+                </ul>
+            
+            </footer>
+        </div> 
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        </div>
+    </div>
+    <!-- ============================================================== -->
+    <!-- End Wrapper -->
+    <!-- ============================================================== -->
+    <!-- ============================================================== -->
+    <!-- All Jquery -->
+    <!-- ============================================================== -->
+    <script src="../plugins/bower_components/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- Menu Plugin JavaScript -->
+    <script src="../plugins/bower_components/sidebar-nav/dist/sidebar-nav.min.js"></script>
+    <!--slimscroll JavaScript -->
+    <script src="js/jquery.slimscroll.js"></script>
+    
+    <!-- Custom Theme JavaScript -->
+    <script src="js/custom.js"></script> -->
+    <script src="../plugins/bower_components/toast-master/js/jquery.toast.js"></script> -->
+</body>
+
+</html>
+
+
+    
